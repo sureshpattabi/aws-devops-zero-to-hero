@@ -26,6 +26,6 @@ phases:
       - echo "Build completed successfully!"
 artifacts:
   files:
-    - 's3://codepipeline-us-east-1-1036847003/*'
+    - '**/*'
   base-directory: ../simple-python-app
 
